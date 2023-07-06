@@ -1,0 +1,27 @@
+{
+  "name": "forgot-password-node-js",
+  "version": "1.0.0",
+  "description": "\"# forgot-password-nodejs\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurilham19/forgot-password-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kurilham19/forgot-password-nodejs/issues"
+  },
+  "homepage": "https://github.com/kurilham19/forgot-password-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.3",
+    "sequelize": "^6.32.1",
+    "sequelize-cli": "^6.6.1"
+  }
+}
