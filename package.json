@@ -3,7 +3,6 @@
   "description": "\"# forgot-password-nodejs\"",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "start": "nodemon index.js",
     "migrate": "sequelize db:migrate",
@@ -20,8 +19,10 @@
   },
   "homepage": "https://github.com/kurilham19/forgot-password-nodejs#readme",
   "dependencies": {
+    "crypto": "^1.0.1",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "nodemailer": "^6.9.3",
     "nodemon": "^2.0.22",
     "pg": "^8.11.1",
     "sequelize": "^6.32.1",
